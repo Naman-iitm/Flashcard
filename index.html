@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FlashCardy - Futuristic Flashcards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="playIntroAnimation()">
+  <div class="intro">
+    <h1>🚀 Welcome to FlashCardy</h1>
+    <p>A futuristic flashcard learning platform</p>
+  </div>
+
+  <nav class="navbar">
+    <h2>📘 FlashCardy</h2>
+    <ul>
+      <li><a href="#maths">Maths</a></li>
+      <li><a href="#science">Science</a></li>
+      <li><a href="#gk">General Knowledge</a></li>
+      <li><a href="#code">Programming</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="https://cdn-icons-png.flaticon.com/512/2913/2913462.png" alt="Isaac Newton" class="card-icon"/>
+          <h3>Isaac Newton</h3>
+          <p>Science</p>
+        </div>
+        <div class="card-back">
+          <h3>Isaac Newton</h3>
+          <p>Father of classical physics. Laws of motion and gravity.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png" alt="Pythagoras" class="card-icon"/>
+          <h3>Pythagoras</h3>
+          <p>Math</p>
+        </div>
+        <div class="card-back">
+          <h3>Pythagoras</h3>
+          <p>Known for Pythagorean theorem in geometry.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Dennis Ritchie" class="card-icon"/>
+          <h3>Dennis Ritchie</h3>
+          <p>Programming</p>
+        </div>
+        <div class="card-back">
+          <h3>Dennis Ritchie</h3>
+          <p>Creator of C language and Unix OS foundation.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Alan Turing" class="card-icon"/>
+          <h3>Alan Turing</h3>
+          <p>AI</p>
+        </div>
+        <div class="card-back">
+          <h3>Alan Turing</h3>
+          <p>Father of computer science and AI.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="https://cdn-icons-png.flaticon.com/512/826/826070.png" alt="Kalpana Chawla" class="card-icon"/>
+          <h3>Kalpana Chawla</h3>
+          <p>Space</p>
+        </div>
+        <div class="card-back">
+          <h3>Kalpana Chawla</h3>
+          <p>First Indian woman in space. NASA astronaut.</p>
+        </div>
+      </div>
+    </div>
+    <!-- MATHS SECTION -->
+    <section id="maths" class="card-section">
+      <h2>📐 Mathematics</h2>
+      <div class="card-grid">
+        <!-- Flashcard 1 -->
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>What is the derivative of sin(x)?</p>
+            </div>
+            <div class="card-back">
+              <p>cos(x)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Flashcard 2 -->
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>Area of a Circle?</p>
+            </div>
+            <div class="card-back">
+              <p>πr²</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Flashcard 3 -->
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>Value of π (upto 3 decimals)?</p>
+            </div>
+            <div class="card-back">
+              <p>3.142</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add 5 more cards below (Line count boosting...) -->
+        <!-- ... -->
+      </div>
+    </section>
+
+    <!-- SCIENCE SECTION -->
+    <section id="science" class="card-section">
+      <h2>🧪 Science</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>What is H<sub>2</sub>O?</p>
+            </div>
+            <div class="card-back">
+              <p>Water</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>Speed of Light?</p>
+            </div>
+            <div class="card-back">
+              <p>3×10⁸ m/s</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add 5 more flashcards -->
+        <!-- ... -->
+      </div>
+    </section>
+
+    <!-- GK SECTION -->
+    <section id="gk" class="card-section">
+      <h2>🌍 General Knowledge</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>Capital of Japan?</p>
+            </div>
+            <div class="card-back">
+              <p>Tokyo</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>Current UN Secretary-General?</p>
+            </div>
+            <div class="card-back">
+              <p>António Guterres</p>
+            </div>
+          </div>
+        </div>
+        <!-- More cards here -->
+        <!-- ... -->
+      </div>
+    </section>
+
+    <!-- CODING SECTION -->
+    <section id="code" class="card-section">
+      <h2>💻 Programming</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>What does HTML stand for?</p>
+            </div>
+            <div class="card-back">
+              <p>HyperText Markup Language</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <p>console.log("Hello World") is in?</p>
+            </div>
+            <div class="card-back">
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6+ More coding flashcards -->
+        <!-- ... -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Created with ❤️ by Naman Jha • FlashCardy 2025</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
